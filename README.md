@@ -10,8 +10,8 @@
 Для детекции маски проводов используется Detectron2 (на основе ResNet).
 
 Веса для YOLO и Detectron2 передаются отдельно.
-Для YOLO папка веса поместите в папку 'yolov5/runs/exp17/weights' ([скачать])(https://yadi.sk/d/w-BAORcyEZrziw).
-Для Detectron2 папку весов поместите в 'output/' ([скачать])(https://yadi.sk/d/lf5UjwxHywHgrg)
+Для YOLO папка веса поместите в папку 'yolov5/runs/exp17/weights' [скачать](https://yadi.sk/d/w-BAORcyEZrziw).
+Для Detectron2 папку весов поместите в 'output/' [скачать](https://yadi.sk/d/lf5UjwxHywHgrg)
 
 Для проверки работы скриптов:
 YOLO запускается через командную строку, например так:
