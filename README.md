@@ -13,7 +13,7 @@
 Для YOLO папка веса поместите в папку 'yolov5/runs/exp17/weights' [скачать](https://yadi.sk/d/w-BAORcyEZrziw).
 Для Detectron2 папку весов поместите в 'output/' [скачать](https://yadi.sk/d/lf5UjwxHywHgrg)
 
-Для проверки работы скриптовЖ
+Для проверки работы скриптов:
 YOLO запускается через командную строку, например так:
     python detect.py --source ../img_test_izo --weights ./runs/exp17/weights/best.pt --conf 0.4 --save-txt --output ./out_box
 
