@@ -10,9 +10,10 @@
 Для детекции маски проводов используется Detectron2 (на основе ResNet).
 
 Веса для YOLO и Detectron2 передаются отдельно.
-Для YOLO папка веса располагается в 'yolov5/runs/exp17/weights' [скачать](https://yadi.sk/d/w-BAORcyEZrziw)
-Для Detectron2 папка весов располагается в 'output/' [скачать](https://yadi.sk/d/lf5UjwxHywHgrg)
+Для YOLO папка веса поместите в папку 'yolov5/runs/exp17/weights' [скачать](https://yadi.sk/d/w-BAORcyEZrziw).
+Для Detectron2 папку весов поместите в 'output/' [скачать](https://yadi.sk/d/lf5UjwxHywHgrg)
 
+Для проверки работы скриптовЖ
 YOLO запускается через командную строку, например так:
     python detect.py --source ../img_test_izo --weights ./runs/exp17/weights/best.pt --conf 0.4 --save-txt --output ./out_box
 
@@ -25,7 +26,7 @@ Detectron2 так, пример:
 ## Установка 1С
 
 Зайдя на сайт [1С](https://v8.1c.ru/podderzhka-i-obuchenie/uchebnye-versii/distributiv-1s-predpriyatie-8-3-versiya-dlya-obucheniya-programmirovaniyu/) и скачайте учебную версию 1С.
-Скачайте архив базы cpr.dt и разверните архив.
+Скачайте архив базы [cpr.dt](скачать) и разверните архив.
 В конфигураторе обработки ... измените строчку... на... для запуска локального питона из 1с.
 Запустите 1С в режиме предвприятия...
 
